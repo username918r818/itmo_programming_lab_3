@@ -13,6 +13,9 @@ public class House extends Space {
         this.gravity = gravity;
     }
 
+    
+
+
     @Override
     public int hashCode() {
         return super.hashCode() + address.hashCode();
